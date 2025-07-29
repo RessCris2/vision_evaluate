@@ -1,0 +1,16 @@
+# 排除版本控制和开发环境文件
+.git/
+.venv/
+__pycache__/
+*.pyc
+
+# 排除大模型文件（建议运行时挂载）
+trained_models/
+
+# 排除IDE和临时文件
+.idea/
+.vscode/
+*.tmp
+
+tests/
+uploads/
